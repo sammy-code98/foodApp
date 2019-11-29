@@ -1,0 +1,41 @@
+img {
+    height: 300px;
+}
+
+.social {
+    padding: 5px;
+}
+
+.social i {
+    margin-right: 1.5rem;
+}
+
+#copy {
+    font-size: 1rem;
+}
+
+.circle.small {
+    position: fixed;
+    top: -60px;
+    right: -55px;
+    left: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.circle.medium {
+    position: fixed;
+    background-image: linear-gradient(to bottom left, var(--color2), var(--color1));
+    bottom: -100px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.circle.big {
+    position: fixed;
+    top: -50px;
+    right: -50px;
+    width: 250px;
+    height: 250px;
+}
